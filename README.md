@@ -1,16 +1,22 @@
 # 🚀 Automated AWS Cost Optimizer
 
+![AWS](https://img.shields.io/badge/AWS-Lambda-orange)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
+---
+
 ## 📌 Overview
-This project automatically reduces AWS costs by identifying and stopping idle EC2 instances using a serverless architecture.
+This project automatically reduces AWS costs by identifying and stopping idle EC2 instances using a fully serverless architecture.
 
 ---
 
 ## 🧰 Technologies Used
-- AWS Lambda
-- Amazon EC2
-- Amazon CloudWatch
-- Amazon EventBridge
-- Python (boto3)
+- AWS Lambda  
+- Amazon EC2  
+- Amazon CloudWatch  
+- Amazon EventBridge  
+- Python (boto3)  
 
 ---
 
@@ -45,16 +51,24 @@ This project automatically reduces AWS costs by identifying and stopping idle EC
 
 ## ✨ Features
 - Automated cost optimization  
-- Serverless (no infrastructure management)  
-- Scalable & efficient  
-- Real-time monitoring via logs  
+- Serverless architecture  
+- Scalable and efficient  
+- Real-time monitoring using CloudWatch logs  
 
 ---
 
 ## 🚀 Future Improvements
-- Tag-based filtering  
+- Tag-based instance filtering  
 - Email alerts using SNS  
 - Multi-region support  
+
+---
+
+## 💡 Key Learning
+- Implemented serverless automation using AWS Lambda  
+- Integrated CloudWatch metrics for decision-making  
+- Used EventBridge for scheduling tasks  
+- Hands-on experience with boto3 and AWS services  
 
 ---
 
