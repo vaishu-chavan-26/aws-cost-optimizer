@@ -29,8 +29,7 @@ This project automatically reduces AWS costs by identifying and stopping idle EC
 ---
 
 ## 🏗️ Architecture
-![Architecture](https://via.placeholder.com/600x300?text=AWS+Cost+Optimizer+Architecture)
-
+![Architecture](screenshots/architecture.png)
 ---
 
 ## 📊 Output Screenshots
