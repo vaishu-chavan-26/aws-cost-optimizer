@@ -1,41 +1,62 @@
-# Automated AWS Cost Optimizer
+# 🚀 Automated AWS Cost Optimizer
 
-## 🎯 Purpose
-This project automatically reduces AWS costs by stopping idle EC2 instances based on CPU utilization.
+## 📌 Overview
+This project automatically reduces AWS costs by identifying and stopping idle EC2 instances using a serverless architecture.
 
-## 🧰 AWS Services Used
+---
+
+## 🧰 Technologies Used
 - AWS Lambda
 - Amazon EC2
 - Amazon CloudWatch
 - Amazon EventBridge
+- Python (boto3)
+
+---
 
 ## ⚙️ How It Works
-1. Lambda function fetches EC2 instances
-2. Retrieves CPU utilization from CloudWatch
-3. If CPU usage is less than 10%, instance is stopped
-4. EventBridge triggers Lambda daily
+1. Lambda function fetches all EC2 instances  
+2. Retrieves CPU utilization from CloudWatch  
+3. If CPU usage < 10%, instance is stopped  
+4. EventBridge triggers the function daily  
 
-## 📌 Features
-- Automatic cost optimization
-- Serverless architecture
-- Logging using CloudWatch
-- Scalable and efficient
+---
 
-## 🚀 Setup Steps
-1. Create EC2 instance
-2. Create IAM role with EC2 & CloudWatch access
-3. Create Lambda function
-4. Deploy Python code
-5. Schedule using EventBridge
+## 🏗️ Architecture
+![Architecture](https://via.placeholder.com/600x300?text=AWS+Cost+Optimizer+Architecture)
 
-## 📊 Output
-- Idle EC2 instances are automatically stopped
-- Logs available in CloudWatch
+---
 
-## 📷 Screenshots (Add your own)
-- EC2 instance stopped
-- Lambda execution logs
-- EventBridge rule
+## 📊 Output Screenshots
+
+### 🖥️ EC2 Instance Stopped
+![EC2](screenshots/ec2-stopped.png)
+
+### ⚡ Lambda Execution
+![Lambda](screenshots/lambda-execution.png)
+
+### 📈 CloudWatch Logs
+![Logs](screenshots/logs.png)
+
+### ⏰ EventBridge Rule
+![EventBridge](screenshots/eventbridge.png)
+
+---
+
+## ✨ Features
+- Automated cost optimization  
+- Serverless (no infrastructure management)  
+- Scalable & efficient  
+- Real-time monitoring via logs  
+
+---
+
+## 🚀 Future Improvements
+- Tag-based filtering  
+- Email alerts using SNS  
+- Multi-region support  
+
+---
 
 ## 👩‍💻 Author
-Vaishnavi Chavan
+**Vaishnavi Chavan**
